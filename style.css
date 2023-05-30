@@ -1,0 +1,441 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: lightcoral;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+   color: lightcoral;
+   text-decoration: double;
+   font-weight:400;
+   text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:lightcoral;
+}
+.btn{
+    background-color:lightcoral;
+    color:black ;
+    text-decoration: none;
+    border:1px silver;
+    font-weight: bold;
+    padding:10px 25px;
+    border-radius:30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(0.8);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+
+}
+h2{
+    color:lightcoral;
+ 
+    font-size: 30px;
+}
+h3{
+    color:lightcoral;
+    letter-spacing: 2px;
+}
+.content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+h4{
+    color:lightcoral;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin:auto
+}
+.some form{
+      width:380px;
+      max-width: 100%;
+      position:relative;
+      justify-content: center;
+}
+.some form input:first-child{
+    display: inline-block;
+    width:  100%;
+    padding:14px 130px 14px 15px;
+    border:2px solid lightcoral;
+    outline: none;
+    border-radius:30px ;
+}
+.some form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline:none;
+    border:none;
+    padding:10px 30px;
+    border-radius:30px;
+    background-color: lightcoral;
+    color:white;
+    box-shadow:0px 0px 5px #000,0px 0px 15px #858585;
+    top:6px;
+    right:6px;
+}
+.about{
+   width:100%;
+   padding:100px 0px;
+   background-color:black;
+}
+.about img{
+    height:550px;
+    
+}
+.about-text{
+    width:560px;
+    color:lightcyan;
+}
+.main{
+    width: 1130px;
+    max-width:110%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:lightcoral;
+    font-size: 50px;
+    margin-bottom:20px;
+}
+.about-text h5{
+    color:White;
+}
+.about-text p{
+    color:aliceblue;
+    margin-bottom:45px;
+    font-size:25px;
+    letter-spacing:1px;
+}
+button{
+    background-color: lightsalmon;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight:bold;
+    border-radius: 30px;
+    padding:13px 30px;
+}
+.service{
+    background:black;
+    color:white;
+    width:100%;
+    padding:100px 0px;
+}
+.title h2{
+  color:white;
+  font-size:80px ;
+  width:1130px;
+  margin:30px auto;
+  text-align:center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 250px;
+    width:335px;
+    padding:20px 35px;
+    background:grey;
+    border-radius:20px;
+    margin:15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+ font-size:50px;
+ display:block;
+ text-align: center;
+ margin:25px 0px;
+ color:red;
+}
+h5{
+    color:aqua;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:white;
+    font-size:16px;
+    line-height:25px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:9px 22px;
+    border-radius:30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border:2px solid red;
+    cursor:pointer;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+}
+.contactme{
+    width: 100%;
+    height:290px;
+    background: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactme p{
+    color:aqua;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom: 25px;
+}
+.contactme .button-two{
+    background-color: azure;
+    color:red;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contactme .button-two:hover{
+    background-color: transparent;
+    border:2px solid grey;
+    cursor:pointer;
+}
+footer{
+    position: relative;
+    width:100%;
+    height:200px;
+    background:black;
+   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size:30px;
+    color:white;
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+footer p:nth-child(2){
+    font-size:17px;
+    color:white;
+    width: 500px;
+    text-align: center;
+    line-height:26px
+}
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+.social a{
+    width:55px;
+    height:55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightsalmon ;
+    border-radius:50%;
+    margin:22px 10px;
+    color:black;
+    text-decoration: none;
+    font-size:20px;    
+}
+.social a:hover{
+    background-color: transparent;
+    border:2px solid grey;
+    cursor:pointer;
+}
+.end{
+    
+     color:white;
+     font-size:20px;
+ }
+ .contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area{
+  display: inline-block;
+  align-items: center;
+}
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+  color: crimson;
+  background: none;
+}
+.box1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(90%, -50%);
+  border-radius: 50%;
+  color: white;
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .js::before{
+    width: 80%;
+}
+.skills-content .right .php::before{
+    width: 50%;
+}
+.skills-content .right .mysql::before{
+    width: 70%;
+}
